@@ -6,7 +6,7 @@
     },
     {
       "path": "finance_control_amazon_sns/README.md",
-      "sha256": "63dad5571a535a82fef237ff8ef9c11a8f89c4e35db1ee3b76615e6a451a562f"
+      "sha256": "27bcdae9f3ee4d33ff07c296f1c7a96c5d677741418fc94f687a51540c0a5011"
     },
     {
       "path": "finance_control_amazon_sns/addon_entrypoint.py",

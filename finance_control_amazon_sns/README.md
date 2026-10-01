@@ -2,8 +2,12 @@
 
 Diese lokale App empfängt signierte Amazon-SNS-Meldungen. Python hört ausschließlich
 auf `127.0.0.1:8787`; NGINX nimmt intern auf Port `8788` nur `POST /amazon/sns` an.
-Eine bestehende Cloudflared-App kann an `local-finance-control-amazon-sns:8788`
-weiterleiten. Es gibt keinen freigegebenen Host-Port, keine Home-Assistant-API-Rechte
+Eine bestehende Cloudflared-App kann bei Installation aus dem veröffentlichten
+Repository an `b835283c-finance-control-amazon-sns:8788` weiterleiten. Nur bei
+einer lokalen Installation lautet der Hostname `local-finance-control-amazon-sns`.
+Nach einer Neuinstallation den tatsächlichen Hostnamen in den
+Supervisor-Informationen prüfen, weil das Repository-Präfix abweichen kann.
+Es gibt keinen freigegebenen Host-Port, keine Home-Assistant-API-Rechte
 und keinen Zugriff auf die Finanzdatenbank.
 
 Die Optionen sind `topic_arn`, `max_messages` (1 bis 10.000) und `bootstrap_only`.
