@@ -1,7 +1,7 @@
 name: Finance Control Amazon SNS
 slug: finance_control_amazon_sns
 description: Private Amazon SNS intake for Finance Control
-version: "1.0.1"
+version: "1.0.2"
 arch:
   - amd64
   - aarch64

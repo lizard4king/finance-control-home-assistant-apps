@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "finance_control_amazon_sns/Dockerfile",
-      "sha256": "e40c2bd19dae750013e99bb3cf873c3123d1f3cf5967939634aa9265a192e65b"
+      "sha256": "21f60d512f147a9342ca1520d90132107989a9e227c5b512b54da256a9593d74"
     },
     {
       "path": "finance_control_amazon_sns/README.md",
@@ -46,11 +46,11 @@
     },
     {
       "path": "finance_control_amazon_sns/config.yaml",
-      "sha256": "90abce7db32ff2775c6c7c420b5c8d8286e593b4a54a6a620703cad51e31a888"
+      "sha256": "1707044124a9f39f935f1d0abfd0c9db8a3da293e56367ec8f0a5b3e1f075863"
     },
     {
       "path": "finance_control_amazon_sns/nginx.conf",
-      "sha256": "9470346d3baa220a7bba25f0682ec6bb41bd0e6efd92bad965e84833a42b8655"
+      "sha256": "0ff8186a859c5dbacf67b61d718855949b5c54a2911838145d19b529b1349865"
     },
     {
       "path": "finance_control_amazon_sns/run.sh",
