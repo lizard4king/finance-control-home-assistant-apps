@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "finance_control_amazon_sns/Dockerfile",
+      "sha256": "e40c2bd19dae750013e99bb3cf873c3123d1f3cf5967939634aa9265a192e65b"
+    },
+    {
+      "path": "finance_control_amazon_sns/README.md",
+      "sha256": "63dad5571a535a82fef237ff8ef9c11a8f89c4e35db1ee3b76615e6a451a562f"
+    },
+    {
+      "path": "finance_control_amazon_sns/addon_entrypoint.py",
+      "sha256": "4942b469010f1c50f367235ed833c58e33be80843a7f9488cc72724275d91c41"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/__init__.py",
+      "sha256": "bb141465318f7d08dfe0a6b2ae303e3663cd58561e602104264bd605bcedf884"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/amazon_portability_api.py",
+      "sha256": "2374cd83087963c62e889774693187f15cee05736cd682784866f3ef3265a3f0"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/amazon_sns.py",
+      "sha256": "4da73ace3188b2032bcaba82d88c41534c39279710d4c862280d9f70e947d4ea"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/amazon_sns_inbox.py",
+      "sha256": "172396355f393141bbbeb96ca42121cbd04481ddf1dbfb0834cec648d09dd528"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/amazon_sns_server.py",
+      "sha256": "53c93da9b36775ae35e2558d718b8e1ed5bcfb6e016c433f4e1d86b714cbfbb4"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/amazon_sns_snapshot.py",
+      "sha256": "b4f0fa3f07606c725628b65a94dbba7ea7285924cf1fd176f2e48a534bb623f4"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/safe_http.py",
+      "sha256": "a122dfec8f02971a4ebdb0b68da4eebaa4a3aeccf386106fc1a1aff8694c13e1"
+    },
+    {
+      "path": "finance_control_amazon_sns/code/finance_control/storage_paths.py",
+      "sha256": "bdfb05e1a3367548b95c885e2527e912da19c1b5e9f260b3f334d63d4d22e89f"
+    },
+    {
+      "path": "finance_control_amazon_sns/config.yaml",
+      "sha256": "90abce7db32ff2775c6c7c420b5c8d8286e593b4a54a6a620703cad51e31a888"
+    },
+    {
+      "path": "finance_control_amazon_sns/nginx.conf",
+      "sha256": "9470346d3baa220a7bba25f0682ec6bb41bd0e6efd92bad965e84833a42b8655"
+    },
+    {
+      "path": "finance_control_amazon_sns/run.sh",
+      "sha256": "c3b6a2254ab40366635bd653e09f3088367ac8ada60ef59b84753af718cffd4e"
+    }
+  ]
+}

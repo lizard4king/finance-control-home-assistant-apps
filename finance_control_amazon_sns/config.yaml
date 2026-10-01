@@ -1,0 +1,30 @@
+name: Finance Control Amazon SNS
+slug: finance_control_amazon_sns
+description: Private Amazon SNS intake for Finance Control
+version: "1.0.1"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+init: false
+timeout: 40
+ports:
+  8788/tcp: null
+ports_description:
+  8788/tcp: Internal NGINX listener; no host port published by default
+map:
+  - type: addon_config
+    read_only: false
+    path: /config
+options:
+  topic_arn: ""
+  max_messages: 10000
+  bootstrap_only: true
+schema:
+  topic_arn: str
+  max_messages: int(1,10000)
+  bootstrap_only: bool
+backup: cold
+backup_exclude:
+  - "*"
